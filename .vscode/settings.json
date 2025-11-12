@@ -1,6 +1,0 @@
-{
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.inlineSuggest.edits.allowCodeShifting": "always",
-    "editor.inlineSuggest.enabled": false,
-    "editor.inlineSuggest.edits.showCollapsed": true
-}

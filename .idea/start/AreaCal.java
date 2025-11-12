@@ -23,6 +23,6 @@ public class AreaCal {
         System.out.println("Perimeter of Rectangle is : " + perimeter);
         System.out.println("\n Thank You :) \n");
 
-
+        sc.close();
     }
 }
