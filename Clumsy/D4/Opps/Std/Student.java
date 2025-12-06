@@ -19,7 +19,7 @@ public class Student {
         System.out.println("New Student Created: " + name);
     }
 
-    //methode to display info:
+    //method to display info:
     void displayinfo() {
         System.out.println("");
         System.out.println("===== STUDENT INFO =====");
@@ -31,7 +31,7 @@ public class Student {
         System.out.println("========================");
     }
 
-    //methode to cheack if student is pass or fail
+    //method to cheack if student is pass or fail
 
     void cheackPass () {
         if (gpa >= 40.0) {
