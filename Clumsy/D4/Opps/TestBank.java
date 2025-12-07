@@ -57,7 +57,7 @@ class BankAccount {
             this.balance -= amount;
             TargetAccount.balance += amount;
 
-            System.out.println(amount + " Amount Transfered to " + TargetAccount + " Account.");
+            System.out.println(amount + " Amount Transfered to " + TargetAccount.Ownername + "'s Account.");
             System.out.println(" Your Current Bank balance is " + this.balance + "\n");
         }
         else if (amount > balance) {
@@ -79,6 +79,7 @@ class BankAccount {
 public class TestBank {
     public static void main(String[] args) {
         
+        System.out.println("");
         //Creating New Objects:
         BankAccount ac1 = new BankAccount("263125489732", "Abhinav Patel", 4500);
         BankAccount ac2 = new BankAccount("263149758246", "Priyanka Pandey", 3570);
