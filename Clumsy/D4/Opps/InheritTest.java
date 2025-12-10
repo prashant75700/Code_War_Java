@@ -160,12 +160,12 @@ class Developer extends Empolyee{
             Salesperson sales3 = new Salesperson("Samiksha", 24,32568, "Kota", 16);
             Salesperson sales = new Salesperson("Amita", 27, 035672.56, "Jaipur", 18);
 
-            System.out.println("\n============ Manager Info =============");
+            System.out.println("\n============ MANAGER =============");
             manager.displayinfo();
             manager.conductmeeting();
             manager.work();
 
-            System.out.println("\n=========== Developers Info ============");
+            System.out.println("\n=========== DEVELOPER ============");
             dev.displayinfo();
             dev.work();
             dev.writecode();
@@ -176,7 +176,7 @@ class Developer extends Empolyee{
             dev2.writecode();
             dev2.debug();
 
-            System.out.println("\n=========== Sales_Person Info============");
+            System.out.println("\n=========== SALESPERSON  ============");
             sales.displayinfo();
             sales.work();
             sales.makesales(360000);
@@ -189,7 +189,7 @@ class Developer extends Empolyee{
             sales3.work();
             sales3.makesales(402536);
 
-            System.out.println("\n========== Bonus Calculating==========");
+            System.out.println("\n========== Bonus Calculating ==========");
             Empolyee[] empolyees = {manager,dev,dev2,sales,sales2,sales3};
 
             for(Empolyee emp : empolyees ) {
